@@ -177,10 +177,11 @@
         padding: 3rem 0rem 2rem 0rem;
     }
     .main3 .write-top p{
+        font-size: 1.1rem;
         padding: 0rem 1rem 5rem 1rem;
     }
     .main3 .write-bottom{
-        gap: none;
+        display: inline;
     }
 
     .main3 .write-bottom .bottom1 h6{
@@ -192,11 +193,13 @@
         font-size: 1.1rem;
     }
 
-    .main4 .middle{
-        padding: 0rem 3.5rem 4rem 3.5rem;
+
+    .main4 .top-write h6{
+        font-size: 2rem;
     }
 
     .main4 .top-write p{
+        font-size: 1.1rem;
         padding: 2rem 6rem 5rem 6rem;
     }
 
@@ -205,16 +208,11 @@
     }
 
     .main4 .middle .left-write h6{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .main4 .middle .left-write p{
         font-size: 1.1rem;
-        padding-right: 1.5rem;
-    }
-    
-    .main4 .middle .right img{
-        width: 46vw;
-        height: 98%;
+        padding-right: 0rem;
     }
 }

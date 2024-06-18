@@ -64,6 +64,8 @@ nav button{
     border-radius: 16px;
     background-color: #6FC247;
     border: none;
+    cursor: pointer;
+
 }
 
 nav .menu-dropdown{
@@ -120,7 +122,9 @@ nav button p{
     border-radius: 16px;
     background-color: #6FC247;
     border: none;
+    cursor: pointer;
 }
+
 
 .buttons .left button p{
     font-size: 1.1rem;
@@ -140,7 +144,9 @@ nav button p{
     gap: 1rem;
     border-radius: 16px;
     border: none;
+    cursor: pointer;
     border: 1px solid #6FC247
+    
 }
 
 .main1 .hero-img img{
@@ -307,6 +313,7 @@ nav button p{
     border-radius: 16px;
     background-color: #6FC247;
     border: none;
+    cursor: pointer;
 }
 
 .main4 .bottom button p{
