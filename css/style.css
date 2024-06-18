@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    width: 100%;
+}
+
+/* Nav Styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem 1.5rem 6rem;
+    box-shadow: 0px 4px 4px 0px #0000000D;
+    min-height: 5vh;
+}
+
+nav .logo img{
+    width: 10rem;
+    height: 1.8rem;
+}
+
+nav .navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.navs .navs1 a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 27.32px;
+    text-decoration: none;
+    color: #065666;
+}
+
+.navs .navs2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navs .navs2 a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 27.32px;
+    color: #636363;
+    text-decoration: none;
+}
+
+nav button{
+    display: flex;
+    align-items: center;
+    width: 17.5rem;
+    height: 4.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    gap: 1rem;
+    border-radius: 16px;
+    background-color: #6FC247;
+    border: none;
+}
+
+nav .menu-dropdown{
+    display: none;
+}
+
+nav button::before{
+    cursor: pointer;
+}
+nav button p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.32px;
+    text-align: left;
+    color: #fff;
+}
+
+/* Main Styling */
+
+/* Main1 */
+.main1 .write1 h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 6rem;
+    text-align: center;
+    padding: 3.5rem 15rem 2rem 15rem;
+    color: #373737;
+}
+
+.main1 .write1 p{
+    text-align: center;
+    padding: 0rem 19rem 3rem 19rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 43.2px;
+    color: #373737;
+}
+
+.main1 .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.buttons .left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.5rem;
+    height: 4.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    gap: 1rem;
+    border-radius: 16px;
+    background-color: #6FC247;
+    border: none;
+}
+
+.buttons .left button p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    text-align: left;
+    color: #fff;
+}
+
+.buttons .right button{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    width: 17.5rem;
+    height: 4.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    gap: 1rem;
+    border-radius: 16px;
+    border: none;
+    border: 1px solid #6FC247
+}
+
+.main1 .hero-img img{
+    width: 100%;
+    height: 110vh;
+    padding: 0rem 5rem 7rem 5rem;
+}
+
+/* Main2 Styling */
+.main2 .write h6{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.71px;
+    text-align: center;
+    color: #373737;
+}
+
+.main2 .write p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 2rem 21.5rem 0rem 21.5rem;
+    color: #373737;
+}
+
+.main2 .companies{
+    padding: 0rem 7rem 0rem 7rem;
+}
+
+.main2 .companies .company{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.companies .company img{
+    height: 15vh;
+    width: 24.1%;
+    background: #F9F9F9;
+}
+
+
+/* Main3 Styling */
+.main3{
+    max-width: 100%;
+    max-height: fit-content;
+    background-color: #000;
+    margin: 7rem 0rem 6rem 0rem;
+    padding: 0rem 7rem 0rem 7rem;
+}
+
+.main3 .write-top h6{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 0rem 2rem 0rem;
+
+}
+
+.main3 .write-top p{
+    color: #D7D7D7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    text-align: center;
+    padding: 0rem 14rem 5rem 14rem;
+}
+
+.main3 .write-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.main3 .write-bottom .bottom1{
+    padding: 0rem 2rem 3rem 0rem;
+}
+
+.main3 .write-bottom .bottom1 h6{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.1rem;
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+.main3 .write-bottom .bottom1 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    color: #D7D7D7;
+    
+}
+
+/* Main4 Styling */
+.main4 .top-write h6{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #000;
+
+}
+
+.main4 .top-write p{
+    color: #373737;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    text-align: center;
+    padding: 2rem 13rem 5rem 13rem;
+}
+
+.main4 .middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    height: 45%;
+    padding: 0rem 5rem 4rem 5rem;
+}
+
+.main4 .middle .left-write{
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+.main4 .middle .left-write h6{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.1rem;
+    color: #000;
+    padding-bottom: 0.5rem;
+}
+
+.main4 .middle .left-write p{
+    color: #373737;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    padding-right: 4rem;
+}
+
+.main4 .middle .right img{
+    width: 46vw;
+    height: 95%;
+}
+
+.main4 .bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.main4 .bottom button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.5rem;
+    height: 4.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    gap: 1rem;
+    border-radius: 16px;
+    background-color: #6FC247;
+    border: none;
+}
+
+.main4 .bottom button p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    text-align: left;
+    color: #fff;
+}
